@@ -31,17 +31,8 @@
 | API-ключ | не требуется |
 | Файлы | `data/moscow_daily.csv`, `data/spb_daily.csv` (~320 КБ) |
 
-## Как запустить
-
-```bash
-git clone https://github.com/USER/weather-analysis.git
-cd weather-analysis
-pip install -r requirements.txt
-jupyter notebook notebook.ipynb
 ```
 
-Данные уже лежат в `data/` — ноутбук запустится и без интернета. Если файлов
-нет, он сам скачает их у API.
 
 ## Ключевые выводы
 
